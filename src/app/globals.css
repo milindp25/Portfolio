@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* ── Surface Elevation ── */
+  --color-background: #0a0a0a;
+  --color-surface: #111111;
+  --color-elevated: #161616;
+
+  /* ── Text Hierarchy ── */
+  --color-foreground: #e5e5e5;
+  --color-secondary: #a3a3a3;
+  --color-tertiary: #737373;
+  --color-muted-foreground: #525252;
+
+  /* ── Borders ── */
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-emphasis: rgba(255, 255, 255, 0.14);
+
+  /* ── Accent — surgical cyan ── */
+  --color-accent: #22d3ee;
+  --color-accent-dim: rgba(34, 211, 238, 0.12);
+  --color-accent-muted: rgba(34, 211, 238, 0.06);
+
+  /* ── Semantic ── */
+  --color-success: #4ade80;
+  --color-warning: #fbbf24;
+  --color-destructive: #f87171;
+
+  /* ── Legacy compat ── */
+  --color-muted: #262626;
+  --color-card: #111111;
+  --color-card-hover: #161616;
+
+  /* ── Typography ── */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", monospace;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
+
+/* Grain — barely perceptible texture */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Selection */
+::selection {
+  background: rgba(34, 211, 238, 0.15);
+  color: var(--color-foreground);
+}
