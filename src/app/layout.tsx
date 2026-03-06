@@ -4,6 +4,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { GrainOverlay } from "@/components/ui/GrainOverlay";
 import { ChatWidgetLazy } from "@/components/chat/ChatWidgetLazy";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const inter = Inter({
@@ -48,6 +49,7 @@ export default function RootLayout({
         <Footer />
         <ChatWidgetLazy />
         <GrainOverlay />
+        <Analytics />
       </body>
     </html>
   );

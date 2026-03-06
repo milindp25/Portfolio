@@ -2,7 +2,21 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Allow dev origins for local development
-  allowedDevOrigins: ["http://localhost:3000", "http://127.0.0.1:3000"],
+  allowedDevOrigins: [
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "http://localhost:3002",
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:3001",
+    "http://localhost:3003",
+    "http://127.0.0.1:3002",
+    "http://127.0.0.1:3003",
+  ],
+
+  // Generate unique build ID per deployment for cache busting
+  generateBuildId: async () => {
+    return `build-${Date.now()}`;
+  },
 
   // Allow Giphy images for the 404 page
   images: {
@@ -40,6 +54,11 @@ const nextConfig: NextConfig = {
           {
             key: "Referrer-Policy",
             value: "strict-origin-when-cross-origin",
+          },
+          {
+            // Prevent browsers from caching HTML pages — always revalidate
+            key: "Cache-Control",
+            value: "no-cache, no-store, must-revalidate",
           },
         ],
       },
