@@ -27,8 +27,8 @@ export default function Home() {
           url: "https://milindprabhakar.com",
           email: "milindp25@gmail.com",
           sameAs: [
-            "https://linkedin.com/in/milindprabhakar",
-            "https://github.com/milindprabhakar",
+            "https://www.linkedin.com/in/milind-prabhakar/",
+            "https://github.com/milindp25",
           ],
           knowsAbout: [
             "Java",
