@@ -6,7 +6,7 @@ import { AnimatedSection } from "@/components/ui/AnimatedSection";
 
 export function Skills() {
   return (
-    <section className="px-6 py-24" id="skills">
+    <section className="px-6 py-14" id="skills">
       <div className="mx-auto max-w-3xl">
         <AnimatedSection>
           <p className="mb-4 font-mono text-xs tracking-widest text-accent uppercase">
