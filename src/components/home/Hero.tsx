@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-[70vh] items-center justify-center px-6 pb-8">
+    <section className="relative flex min-h-[70vh] items-center justify-center px-6 pb-6">
       <div className="mx-auto w-full max-w-2xl">
         {/* Greeting above terminal */}
         <motion.p

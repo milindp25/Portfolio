@@ -18,7 +18,7 @@ export const projects: Project[] = [
       "Building a comprehensive ADP/Workday competitor with multi-tenant architecture, Row-Level Security, and full compliance for Indian labor laws (PF, ESI, TDS) and US regulations (FLSA, FMLA). Features modular pricing with Free through Enterprise tiers and 10 add-on modules. Includes ACH (NACHA) and NEFT/RTGS/IMPS banking integrations.",
     techStack: ["Next.js", "NestJS", "Supabase", "PostgreSQL", "TypeScript"],
     featured: true,
-    status: "in-progress",
+    status: "completed",
   },
   {
     id: "portfolio-chatbot",
@@ -36,7 +36,7 @@ export const projects: Project[] = [
       "Framer Motion",
     ],
     featured: true,
-    status: "in-progress",
+    status: "completed",
   },
   {
     id: "job-search-app",

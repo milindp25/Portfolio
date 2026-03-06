@@ -11,7 +11,7 @@ export function FeaturedProjects() {
   const featured = projects.filter((p) => p.featured);
 
   return (
-    <section className="px-6 py-14" id="projects">
+    <section className="px-6 py-4" id="projects">
       <div className="mx-auto max-w-3xl">
         <AnimatedSection>
           <p className="mb-4 font-mono text-xs tracking-widest text-accent uppercase">

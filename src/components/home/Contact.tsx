@@ -27,7 +27,7 @@ const links = [
 
 export function Contact() {
   return (
-    <section className="px-6 py-14" id="contact">
+    <section className="px-6 py-4" id="contact">
       <div className="mx-auto max-w-2xl">
         <AnimatedSection>
           <p className="mb-4 font-mono text-xs tracking-widest text-accent uppercase">
