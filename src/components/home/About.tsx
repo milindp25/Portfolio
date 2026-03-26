@@ -17,7 +17,7 @@ export function About() {
           <p className="mb-4 font-mono text-xs tracking-widest text-accent uppercase">
             About
           </p>
-          <h2 className="mb-8 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
+          <h2 className="mb-10 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
             Building systems that scale
           </h2>
         </AnimatedSection>
@@ -35,11 +35,6 @@ export function About() {
               polished user experiences. I&apos;ve led teams, mentored engineers,
               and shipped systems that handle 1M+ concurrent users while
               maintaining 99.994% uptime.
-            </p>
-            <p>
-              Outside of work, I&apos;m building a multi-tenant SaaS platform
-              and exploring AI/ML applications. I believe the best engineers are
-              the ones who never stop building.
             </p>
           </div>
         </AnimatedSection>

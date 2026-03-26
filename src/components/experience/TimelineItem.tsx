@@ -38,9 +38,9 @@ export function TimelineItem({ experience, index }: TimelineItemProps) {
             {experience.highlights.map((highlight) => (
               <li
                 key={highlight}
-                className="flex items-start gap-2 text-[13px] leading-relaxed text-secondary"
+                className="relative text-[13px] leading-relaxed text-secondary"
               >
-                <span className="mt-[7px] h-px w-2 shrink-0 bg-border-emphasis" />
+                <span className="absolute -left-3 top-[9px] h-px w-1.5 bg-border-emphasis" />
                 {highlight}
               </li>
             ))}

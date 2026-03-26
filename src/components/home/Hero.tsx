@@ -9,7 +9,7 @@ import Link from "next/link";
 export function Hero() {
   return (
     <section className="relative flex min-h-[60vh] items-center justify-center px-6 pb-12">
-      <div className="mx-auto w-full max-w-2xl">
+      <div className="mx-auto w-full max-w-3xl">
         {/* Greeting above terminal */}
         <motion.p
           initial={{ opacity: 0, y: 10 }}
@@ -99,7 +99,7 @@ export function Hero() {
               View Projects
             </Button>
           </Link>
-          <Link href="/experience">
+          <Link href="/about">
             <Button variant="outline" size="lg">
               Experience
             </Button>
