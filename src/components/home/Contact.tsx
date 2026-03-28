@@ -28,12 +28,12 @@ const links = [
 export function Contact() {
   return (
     <section className="px-6 py-12" id="contact">
-      <div className="mx-auto max-w-2xl">
+      <div className="mx-auto max-w-3xl">
         <AnimatedSection>
           <p className="mb-4 font-mono text-xs tracking-widest text-accent uppercase">
             Contact
           </p>
-          <h2 className="mb-3 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
+          <h2 className="mb-4 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
             Let&apos;s connect
           </h2>
           <p className="mb-8 text-sm text-secondary">

@@ -3,15 +3,15 @@ import { Timeline } from "@/components/experience/Timeline";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Experience",
+  title: "About",
   description:
     "8+ years of software engineering experience across Capital One, Discover Financial Services, Oracle, and more.",
   alternates: {
-    canonical: "https://milindprabhakar.com/experience",
+    canonical: "https://milindprabhakar.com/about",
   },
 };
 
-export default function ExperiencePage() {
+export default function AboutPage() {
   return (
     <>
       <JsonLd
@@ -27,8 +27,8 @@ export default function ExperiencePage() {
             {
               "@type": "ListItem",
               position: 2,
-              name: "Experience",
-              item: "https://milindprabhakar.com/experience",
+              name: "About",
+              item: "https://milindprabhakar.com/about",
             },
           ],
         }}
