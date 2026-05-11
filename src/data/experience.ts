@@ -12,7 +12,7 @@ export const experiences: Experience[] = [
   {
     id: "capital-one",
     company: "Capital One",
-    role: "Principal Consultant, Lead Software Engineer",
+    role: "Lead Software Engineer",
     period: "May 2025 to Present",
     location: "Riverwoods, IL",
     highlights: [

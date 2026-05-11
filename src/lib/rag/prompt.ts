@@ -5,10 +5,10 @@ import type { MatchResult } from "@/lib/supabase/types";
  * answer basic "who / where / what" questions without relying solely
  * on vector retrieval (which can miss the identity chunk).
  */
-const IDENTITY_CONTEXT = `Milind Prabhakar is a Lead Software Engineer (Principal Consultant) currently working at Capital One in Riverwoods, Illinois. He has 8 years of experience building enterprise-grade systems in financial services and AI-integrated developer tooling. He holds an MS in Computer Science from IIT Chicago and a BE from BMS Institute of Technology, Bengaluru. He is based in Chicago, IL. Contact: milindp25@gmail.com | LinkedIn: linkedin.com/in/milindprabhakar | GitHub: github.com/iMilind.
+const IDENTITY_CONTEXT = `Milind Prabhakar is a Lead Software Engineer currently working at Capital One in Riverwoods, Illinois. He has 8 years of experience building enterprise-grade systems in financial services and AI-integrated developer tooling. He holds an MS in Computer Science from IIT Chicago and a BE from BMS Institute of Technology, Bengaluru. He is based in Chicago, IL. Contact: milindp25@gmail.com | LinkedIn: linkedin.com/in/milindprabhakar | GitHub: github.com/iMilind.
 
 Career timeline (most recent first):
-- Capital One, Principal Consultant / Lead Software Engineer (May 2025 to Present)
+- Capital One, Lead Software Engineer (May 2025 to Present)
 - Discover Financial Services, Application Engineer (Sept 2023 to Dec 2025)
 - Agilant Solutions, Full Stack Developer Intern (Aug to Sept 2023)
 - IIT Chicago, Teaching Assistant (Aug 2022 to May 2023)
