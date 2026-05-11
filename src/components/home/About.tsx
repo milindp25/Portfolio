@@ -3,10 +3,10 @@
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
 
 const stats = [
-  { value: "8+", label: "Years Experience" },
-  { value: "$3M", label: "Annual Savings" },
-  { value: "73%", label: "Registration Increase" },
-  { value: "1M+", label: "Concurrent Users" },
+  { value: "8", label: "Years Experience" },
+  { value: "$65M", label: "Annual Savings" },
+  { value: "73%", label: "Registration Lift" },
+  { value: "10M", label: "Customers Migrated" },
 ];
 
 export function About() {
@@ -25,16 +25,17 @@ export function About() {
         <AnimatedSection delay={0.1}>
           <div className="space-y-4 text-[15px] leading-[1.75] text-secondary">
             <p>
-              I&apos;ve spent 8+ years building enterprise-grade systems across
-              financial services — from core banking engines processing millions
-              of transactions at Oracle, to modernizing secured-card platforms at
-              Discover, to leading customer migration at Capital One.
+              I&apos;ve spent 8 years building enterprise-grade systems across
+              financial services. Core banking engines processing 1,000 TPS at
+              Oracle. Modernizing secured-card platforms at Discover. Leading a
+              10M customer migration at Capital One. Building AI agents in
+              regulated CI/CD pipelines.
             </p>
             <p>
-              My sweet spot is the intersection of complex backend systems and
-              polished user experiences. I&apos;ve led teams, mentored engineers,
-              and shipped systems that handle 1M+ concurrent users while
-              maintaining 99.994% uptime.
+              My sweet spot is the intersection of distributed systems, payment
+              platforms, and applied AI. I&apos;ve led teams, mentored
+              engineers, and shipped systems handling 1,000 TPS at 99.994%
+              uptime.
             </p>
           </div>
         </AnimatedSection>

@@ -32,7 +32,7 @@ export function ChatWidget() {
                 milind.chat
               </span>
               <span className="font-mono text-[10px] text-tertiary">
-                — ask me anything
+                · ask me anything
               </span>
             </div>
 

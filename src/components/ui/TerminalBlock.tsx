@@ -24,7 +24,12 @@ export function TerminalBlock({ children, className, title }: TerminalBlockProps
           </span>
         )}
       </div>
-      <div className="p-5 font-mono text-sm leading-relaxed">{children}</div>
+      <div
+        className="p-5 font-mono text-xs leading-relaxed sm:text-sm"
+        style={{ overflowWrap: "anywhere", wordBreak: "break-word" }}
+      >
+        {children}
+      </div>
     </div>
   );
 }

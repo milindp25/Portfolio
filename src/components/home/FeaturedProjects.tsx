@@ -7,8 +7,16 @@ import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
 
+const HOMEPAGE_FEATURED_IDS = [
+  "spicy-desi-voice-ai",
+  "ai-cicd-agents",
+  "portfolio-chatbot",
+] as const;
+
 export function FeaturedProjects() {
-  const featured = projects.filter((p) => p.featured);
+  const featured = HOMEPAGE_FEATURED_IDS.map(
+    (id) => projects.find((p) => p.id === id),
+  ).filter((p): p is (typeof projects)[number] => Boolean(p));
 
   return (
     <section className="px-6 py-12" id="projects">
@@ -32,11 +40,16 @@ export function FeaturedProjects() {
                   </h3>
                   <Badge
                     variant={
-                      project.status === "in-progress" ? "accent" : "default"
+                      project.status === "in-progress" ||
+                      project.status === "in-production"
+                        ? "accent"
+                        : "default"
                     }
                     className="shrink-0"
                   >
-                    {project.status}
+                    {project.status === "in-production"
+                      ? "in production"
+                      : project.status}
                   </Badge>
                 </div>
                 <p className="text-sm leading-relaxed text-secondary">

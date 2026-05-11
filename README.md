@@ -1,4 +1,4 @@
-# Milind Prabhakar — Portfolio + AI Chatbot
+# Milind Prabhakar | Portfolio + AI Chatbot
 
 Personal portfolio website with an AI-powered chatbot that answers questions about my professional background using RAG (Retrieval-Augmented Generation).
 
@@ -26,7 +26,7 @@ Personal portfolio website with an AI-powered chatbot that answers questions abo
 - Markdown rendering in responses with copy button
 - Suggested starter questions
 - Streaming responses with typing indicator
-- Strict guardrails — only answers questions about Milind
+- Strict guardrails so it only answers questions about Milind
 - Rate limiting (20 req/min per IP) with quirky error messages
 
 ### Admin Dashboard
@@ -101,7 +101,7 @@ src/
   app/                    # Next.js App Router pages
     admin/                # Admin dashboard (login, stats, questions, feedback, analytics)
     api/                  # API routes (chat, feedback, admin endpoints)
-    experience/           # Career timeline page
+    about/                # Career timeline page
     projects/             # Projects showcase page
   components/
     chat/                 # Chat widget (toggle, window, messages, input, feedback)

@@ -35,8 +35,9 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mb-10 max-w-lg text-lg text-secondary"
         >
-          Senior Software Engineer building enterprise-grade systems in
-          financial services. Currently at Capital One.
+          Lead Software Engineer building distributed systems, payment
+          platforms, and AI-integrated tooling in fintech. Currently at
+          Capital One.
         </motion.p>
 
         {/* Terminal — the signature element */}
@@ -57,8 +58,8 @@ export function Hero() {
                 transition={{ delay: 0.9, duration: 0.3 }}
                 className="text-secondary"
               >
-                Microservices &middot; Event-driven architecture &middot;
-                React &middot; Spring Boot &middot; AWS
+                Distributed Systems &middot; AI Agents &middot;
+                Event-driven architecture &middot; Kafka &middot; Spring Boot
               </motion.p>
               <div className="h-1" />
               <p>
@@ -81,7 +82,11 @@ export function Hero() {
                 </p>
                 <p>
                   <span className="text-accent">CLOUD</span>
-                  =AWS,Docker,Kubernetes
+                  =AWS,Docker,Kubernetes,OpenShift
+                </p>
+                <p>
+                  <span className="text-accent">AI</span>
+                  =Claude_API,LLM_Agents,Twilio,RAG
                 </p>
               </motion.div>
             </div>
@@ -92,7 +97,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.6, duration: 0.5 }}
-          className="flex gap-3"
+          className="flex flex-wrap gap-3"
         >
           <Link href="/projects">
             <Button variant="primary" size="lg">
