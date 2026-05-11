@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 
-export const alt = "Milind Prabhakar — Senior Software Engineer";
+export const alt = "Milind Prabhakar | Lead Software Engineer in Fintech and Applied AI";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -69,7 +69,7 @@ export default async function Image() {
             marginBottom: "40px",
           }}
         >
-          Senior Software Engineer at Capital One
+          Lead Software Engineer at Capital One
         </div>
 
         {/* Tech stack */}
@@ -80,7 +80,7 @@ export default async function Image() {
             flexWrap: "wrap",
           }}
         >
-          {["Java", "Spring Boot", "React", "Next.js", "AWS", "Kafka"].map(
+          {["Java", "Spring Boot", "Kafka", "AI Agents", "AWS", "Distributed Systems"].map(
             (tech) => (
               <div
                 key={tech}

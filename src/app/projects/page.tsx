@@ -5,9 +5,20 @@ import { JsonLd } from "@/components/seo/JsonLd";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Enterprise SaaS platforms, AI chatbots, and full-stack applications built by Milind Prabhakar.",
+    "Production AI agents, voice AI systems, enterprise SaaS platforms, and full-stack applications built by Milind Prabhakar.",
   alternates: {
     canonical: "https://milindprabhakar.com/projects",
+  },
+  openGraph: {
+    title: "Projects by Milind Prabhakar | AI Agents, Fintech Systems",
+    description:
+      "Production AI agents, voice AI systems, enterprise SaaS platforms, and full-stack applications.",
+    url: "https://milindprabhakar.com/projects",
+  },
+  twitter: {
+    title: "Projects by Milind Prabhakar | AI Agents, Fintech Systems",
+    description:
+      "Production AI agents, voice AI systems, enterprise SaaS platforms, and full-stack applications.",
   },
 };
 

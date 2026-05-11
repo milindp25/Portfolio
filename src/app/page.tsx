@@ -18,12 +18,23 @@ export default function Home() {
         data={{
           "@type": "Person",
           name: "Milind Prabhakar",
-          jobTitle: "Senior Software Engineer",
+          jobTitle: "Lead Software Engineer",
           worksFor: {
             "@type": "Organization",
             name: "Capital One",
           },
+          alumniOf: [
+            {
+              "@type": "CollegeOrUniversity",
+              name: "Illinois Institute of Technology",
+            },
+            {
+              "@type": "CollegeOrUniversity",
+              name: "BMS Institute of Technology and Management",
+            },
+          ],
           url: "https://milindprabhakar.com",
+          image: "https://milindprabhakar.com/opengraph-image",
           email: "milindp25@gmail.com",
           sameAs: [
             "https://www.linkedin.com/in/milind-prabhakar/",
@@ -32,16 +43,22 @@ export default function Home() {
           knowsAbout: [
             "Java",
             "Spring Boot",
-            "React",
-            "Next.js",
-            "TypeScript",
-            "AWS",
+            "Apache Kafka",
+            "Distributed Systems",
+            "AI Agents",
+            "LLM Integration",
             "Microservices",
-            "Kafka",
-            "Kubernetes",
+            "Fintech",
+            "Payment Systems",
           ],
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Chicago",
+            addressRegion: "IL",
+            addressCountry: "US",
+          },
           description:
-            "Full-stack engineer with 8+ years of experience building enterprise-grade systems across financial services.",
+            "Lead Software Engineer with 8 years building enterprise-grade systems across financial services and AI-integrated developer tooling.",
         }}
       />
       <JsonLd

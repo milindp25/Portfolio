@@ -5,9 +5,20 @@ import { JsonLd } from "@/components/seo/JsonLd";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "8+ years of software engineering experience across Capital One, Discover Financial Services, Oracle, and more.",
+    "8 years of software engineering experience across Capital One, Discover Financial Services, and Oracle Financial Services. Building distributed systems, payment platforms, and AI-integrated tooling in fintech.",
   alternates: {
     canonical: "https://milindprabhakar.com/about",
+  },
+  openGraph: {
+    title: "About Milind Prabhakar | 8 Years in Fintech & AI",
+    description:
+      "8 years of software engineering experience across Capital One, Discover Financial Services, and Oracle Financial Services.",
+    url: "https://milindprabhakar.com/about",
+  },
+  twitter: {
+    title: "About Milind Prabhakar | 8 Years in Fintech & AI",
+    description:
+      "8 years of software engineering experience across Capital One, Discover Financial Services, and Oracle Financial Services.",
   },
 };
 

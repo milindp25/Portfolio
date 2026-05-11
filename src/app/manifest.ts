@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Milind Prabhakar — Senior Software Engineer",
+    name: "Milind Prabhakar | Lead Software Engineer",
     short_name: "Milind P.",
     description:
-      "Senior Software Engineer with 8+ years building enterprise-grade systems in financial services.",
+      "Lead Software Engineer with 8 years building fintech systems and AI-integrated developer tooling.",
     start_url: "/",
     display: "standalone",
     background_color: "#0a0a0a",

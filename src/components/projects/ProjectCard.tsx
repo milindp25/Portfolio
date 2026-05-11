@@ -19,10 +19,16 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             {project.title}
           </h3>
           <Badge
-            variant={project.status === "in-progress" ? "accent" : "default"}
+            variant={
+              project.status === "in-progress" || project.status === "in-production"
+                ? "accent"
+                : "default"
+            }
             className="shrink-0"
           >
-            {project.status}
+            {project.status === "in-production"
+              ? "in production"
+              : project.status}
           </Badge>
         </div>
 

@@ -5,6 +5,19 @@ export interface SkillCategory {
 
 export const skills: SkillCategory[] = [
   {
+    category: "AI/LLM",
+    items: [
+      "Claude API",
+      "OpenAI API",
+      "LLM Agents",
+      "RAG",
+      "pgvector",
+      "LangChain",
+      "Twilio",
+      "Agentic AI",
+    ],
+  },
+  {
     category: "Languages",
     items: ["Java", "JavaScript", "TypeScript", "SQL", "PL/SQL", "Python", "Bash"],
   },

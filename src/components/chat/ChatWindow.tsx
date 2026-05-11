@@ -14,9 +14,9 @@ const RATE_LIMIT_MESSAGES = [
   "Whoa there, speed racer! 🏎️ You're asking questions faster than Milind writes code. Give me a sec to catch my breath!",
   "Easy tiger! 🐯 I love the enthusiasm, but I need a quick breather. Try again in a minute!",
   "Chill out on the questions! 🧊 I'm flattered by the attention, but even AI assistants need a coffee break. Back in a min!",
-  "Hold up! ✋ You're hitting me with questions like it's a speed round. Let's slow it down — try again in a moment!",
+  "Hold up! ✋ You're hitting me with questions like it's a speed round. Let's slow it down, try again in a moment!",
   "Rate limit hit! 🚦 Looks like you're really into Milind's background (who wouldn't be?). Give me ~60 seconds to recharge!",
-  "Okay okay, I get it — Milind is fascinating! 😄 But I need a quick timeout. Ping me again in a minute!",
+  "Okay okay, I get it, Milind is fascinating! 😄 But I need a quick timeout. Ping me again in a minute!",
 ];
 
 /** Map assistant message IDs to the user question that triggered them. */
