@@ -2,25 +2,20 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://milindprabhakar.com";
+  const lastModified = new Date("2026-05-11");
 
   return [
     {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/projects`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
+      url: `${baseUrl}/`,
+      lastModified,
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
+      lastModified,
+    },
+    {
+      url: `${baseUrl}/projects`,
+      lastModified,
     },
   ];
 }

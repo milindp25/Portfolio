@@ -17,6 +17,7 @@ export default function Home() {
       <JsonLd
         data={{
           "@type": "Person",
+          "@id": "https://milindprabhakar.com/#person",
           name: "Milind Prabhakar",
           jobTitle: "Lead Software Engineer",
           worksFor: {
@@ -35,7 +36,7 @@ export default function Home() {
           ],
           url: "https://milindprabhakar.com",
           image: "https://milindprabhakar.com/opengraph-image",
-          email: "milindp25@gmail.com",
+          email: "mailto:milindp25@gmail.com",
           sameAs: [
             "https://www.linkedin.com/in/milind-prabhakar/",
             "https://github.com/milindp25",
@@ -66,6 +67,10 @@ export default function Home() {
           "@type": "WebSite",
           name: "Milind Prabhakar",
           url: "https://milindprabhakar.com",
+          description:
+            "Personal portfolio of Milind Prabhakar, Lead Software Engineer in fintech and applied AI. Career history, production projects, and an AI assistant for portfolio questions.",
+          inLanguage: "en-US",
+          publisher: { "@id": "https://milindprabhakar.com/#person" },
         }}
       />
       <Hero />
