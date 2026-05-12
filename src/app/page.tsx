@@ -17,6 +17,7 @@ export default function Home() {
       <JsonLd
         data={{
           "@type": "Person",
+          "@id": "https://milindprabhakar.com/#person",
           name: "Milind Prabhakar",
           jobTitle: "Lead Software Engineer",
           worksFor: {
@@ -35,7 +36,7 @@ export default function Home() {
           ],
           url: "https://milindprabhakar.com",
           image: "https://milindprabhakar.com/opengraph-image",
-          email: "milindp25@gmail.com",
+          email: "mailto:milindp25@gmail.com",
           sameAs: [
             "https://www.linkedin.com/in/milind-prabhakar/",
             "https://github.com/milindp25",
