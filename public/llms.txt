@@ -1,0 +1,28 @@
+# Milind Prabhakar
+
+> Lead Software Engineer based in Chicago, IL. 8 years building enterprise-grade systems in fintech and applied AI.
+> Currently at Capital One. Previously Discover Financial Services and Oracle Financial Services.
+> Specializes in distributed systems, payment platforms, Kafka event-driven architecture, and AI-integrated developer tooling.
+
+## Key Achievements
+- Leading migration of 10M secured-card customers from Discover to Capital One post-acquisition
+- Built Kafka ACH refund pipeline with Spring Boot, idempotent consumers, and DLQ replay, generating $65M in annual savings at Discover
+- Cross-team technical anchor on a $500M registration and activation modernization program, delivering 73% registration lift and 64% activation lift
+- Achieved 99.994% uptime on modernized secured-card platforms with blue-green deployments and Catchpoint synthetic monitoring
+- Building AI agents into Capital One's universal CI/CD pipeline for automated PR review and vulnerability remediation, with governance controls for regulated banking
+- At Oracle, built core banking processing engines handling 1,000 TPS for 120M customers and led the Canara-Syndicate merger migration covering 95M records with zero data loss
+
+## Tech Expertise
+Java, Spring Boot, Apache Kafka, AWS, Kubernetes, OpenShift, Helm, Terraform,
+Claude API, OpenAI API, LLM Agents, RAG, pgvector, LangChain, Twilio,
+React, Next.js, TypeScript, Node.js, PostgreSQL, Oracle DB
+
+## Pages
+- /: Home with hero, featured AI/voice projects, skills, contact
+- /about: Full work history, education, quantified outcomes
+- /projects: Production AI agents, fintech systems, and side projects
+
+## Contact
+- Email: milindp25@gmail.com
+- GitHub: https://github.com/milindp25
+- LinkedIn: https://www.linkedin.com/in/milind-prabhakar/
