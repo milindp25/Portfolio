@@ -18,9 +18,9 @@ export function Timeline() {
         <p className="mb-4 font-mono text-xs tracking-widest text-accent uppercase">
           About
         </p>
-        <h2 className="mb-10 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
-          Lead Software Engineer with 8 years in fintech and applied AI
-        </h2>
+        <h1 className="mb-10 text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
+          Who is Milind Prabhakar?
+        </h1>
       </AnimatedSection>
 
       <AnimatedSection delay={0.1}>

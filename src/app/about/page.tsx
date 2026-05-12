@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Timeline } from "@/components/experience/Timeline";
+import { FAQ } from "@/components/about/FAQ";
+import { faqItems } from "@/data/faq";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
@@ -47,6 +49,19 @@ export default function AboutPage() {
       />
       <JsonLd
         data={{
+          "@type": "FAQPage",
+          mainEntity: faqItems.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        }}
+      />
+      <JsonLd
+        data={{
           "@type": "BreadcrumbList",
           itemListElement: [
             {
@@ -67,6 +82,7 @@ export default function AboutPage() {
       <section className="px-6 py-24">
         <Timeline />
       </section>
+      <FAQ />
     </>
   );
 }

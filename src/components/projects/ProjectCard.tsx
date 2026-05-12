@@ -13,7 +13,7 @@ interface ProjectCardProps {
 export function ProjectCard({ project, index }: ProjectCardProps) {
   return (
     <AnimatedSection delay={index * 0.1}>
-      <Card className="flex h-full flex-col gap-3">
+      <Card id={project.id} className="flex h-full flex-col gap-3 scroll-mt-24">
         <div className="flex items-start justify-between gap-4">
           <h3 className="text-base font-semibold text-foreground">
             {project.title}

@@ -67,6 +67,10 @@ export default function Home() {
           "@type": "WebSite",
           name: "Milind Prabhakar",
           url: "https://milindprabhakar.com",
+          description:
+            "Personal portfolio of Milind Prabhakar, Lead Software Engineer in fintech and applied AI. Career history, production projects, and an AI assistant for portfolio questions.",
+          inLanguage: "en-US",
+          publisher: { "@id": "https://milindprabhakar.com/#person" },
         }}
       />
       <Hero />
